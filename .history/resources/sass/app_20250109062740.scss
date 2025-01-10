@@ -1,0 +1,8 @@
+// First, @use rules
+@use 'bootstrap/scss/bootstrap' as bootstrap;
+@use 'variables'; // If you're using a custom variables file
+@use 'mixins/banner';
+
+.banner {
+  @include banner.banner-style;
+}

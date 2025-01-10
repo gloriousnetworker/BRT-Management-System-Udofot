@@ -1,0 +1,11 @@
+@use 'variables' as *;
+@import 'bootstrap/scss/bootstrap';
+@use 'mixins/banner' as *;
+
+// Any other styles or rules should be below
+body {
+  font-family: Arial, sans-serif;
+}
+
+@import url('https://fonts.bunny.net/css?family=Nunito');
+

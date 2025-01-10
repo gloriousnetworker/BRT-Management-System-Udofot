@@ -1,0 +1,17 @@
+// Make sure this is at the top of the file
+@use 'variables' as *;
+
+// Then your other rules go below it
+@import 'bootstrap/scss/bootstrap';
+@use 'mixins/banner' as *;
+
+// Any other styles or rules should be below
+body {
+  font-family: Arial, sans-serif;
+}
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@use 'variables' as *;
+// Bootstrap
+@use 'bootstrap/scss/bootstrap' as *;

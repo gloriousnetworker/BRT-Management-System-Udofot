@@ -1,0 +1,14 @@
+// Tailwind CSS imports
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Bootstrap and custom Sass imports
+@use 'bootstrap/scss/bootstrap' as bootstrap;
+@use 'variables'; // Custom variables (if any)
+@use 'mixins/banner';
+
+// Example of using a mixin
+.banner {
+  @include banner.banner-style;
+}

@@ -1,0 +1,7 @@
+// First, @use rules
+@use 'bootstrap/scss/bootstrap' as bootstrap;
+@use 'variables'; // If you're using a custom variables file
+@use 'mixins/banner'; // If you're using a custom mixins file
+
+// Now, other rules or styles can follow
+// Any other Sass or CSS code here

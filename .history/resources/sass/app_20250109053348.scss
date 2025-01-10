@@ -1,0 +1,10 @@
+// Ensure all @use statements are at the top
+@use 'variables' as *;
+@use 'bootstrap/scss/bootstrap' as *;
+@use 'mixins/banner' as *;
+@use 'functions' as *;
+
+// Now you can place your other CSS styles below
+body {
+  font-family: Arial, sans-serif;
+}
